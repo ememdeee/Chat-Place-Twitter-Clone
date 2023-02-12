@@ -1,3 +1,15 @@
+I just created my first React project, a Twitter clone with the ability to post tweets and receive real-time updates!
+
+Please visit the site at https://chatplace-aff95.web.app 
+
+Note:
+Keep in mind that there is no login feature, and please use respectful and appropriate language at all times. 
+
+If you need anything from me, don't hesitate to reach out via email at basurah.muhammad@yahoo.com.
+
+I'm so excited to lear more about React, yuhu!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
