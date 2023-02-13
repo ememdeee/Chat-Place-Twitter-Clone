@@ -36,7 +36,15 @@ function TweetBox() {
             </div>
             <input value = {tweetImage} onChange={(e) => setTweetImage(e.target.value)} className='tweetBox_imageInput' placeholder="Optional: Enter image URL" type="text" />
 
-            <Button onClick={sendTweet} type="submit" className='tweetBox_tweetButton'>Tweet</Button>
+            {/* <Button onClick={sendTweet} type="submit" className='tweetBox_tweetButton'>Tweet</Button> */}
+            <Button onClick={() => {
+              if (!tweetMessage) {
+                alert("The tweet message cannot be empty");
+                return;
+              }
+              sendTweet()
+            }} 
+            type="submit" className='tweetBox_tweetButton'>Tweet</Button>
 
         </form>
     </div>
