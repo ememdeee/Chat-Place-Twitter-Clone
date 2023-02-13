@@ -18,5 +18,6 @@ body{
     }
     .feed{
         flex: 1 !important;
+        border-left: 1px solid var(--twitter-background);
     }
   }
